@@ -16,7 +16,7 @@ chamando a função maximo_minimo que percorre a lista com os termos expondo o
 maior e o meno termo. O algoritimo é O(n) pois ele tem que percorrer o numero
 de termos n em uma lista, demorando o tempo n relacionado ao numero de termos'''
     if len(lista) == 0:
-        return NULL, NULL
+        return None, None
     if else len(lista) == 1:
         return lista[0], lista[0]
     else:
