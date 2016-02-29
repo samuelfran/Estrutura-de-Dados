@@ -12,9 +12,9 @@ def maximo_minimo(lista, maximo, minimo, x):
 
 def max_min(lista):
     '''o programa possui a função max_min que trata algumas exceções e acaba
-chamando a função maximo_minimo que percorre a lista com os termos expondo o
-maior e o meno termo. O algoritimo é O(n) pois ele tem que percorrer o numero
-de termos n em uma lista, demorando o tempo n relacionado ao numero de termos'''
+chamando a função maximo_minimo que percorre a lista com os termos mostrando o
+maior e o menor termo. O algoritimo é O(n) pois percorre a lista sem ordená-la
+retornando o resultado'''
     if len(lista) == 0:
         return None, None
     if else len(lista) == 1:
