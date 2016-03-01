@@ -7,7 +7,6 @@ def maximo_minimo(lista, maximo, minimo, x):
             maximo = lista[x]
         if (minimo > lista[x]):
             minimo = lista[x]
-        x = x + 1
         return maximo_minimo(lista, m, n, x + 1)
 
 def max_min(lista):
